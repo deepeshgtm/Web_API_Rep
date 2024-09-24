@@ -3,35 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      body {
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 0;
-      }
-      nav button {
-        background-color: red;
-        font-size: 12px;
-        color: white;
-        padding: 10px 20px;
-        display: grid;
-        text-align: center;
-      }
-    </style>
+    <title>Assignment</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h3>Test webpage</h3>
+    <div class="container">
+      <div class="article">
+        <button class="toggle-btn" id="toggleBtn">Click Here!</button>
+      </div>
+      <div class="article">
+        <divclass="text" id="textDisplay">This is the initial text</div>
+      </div>
+    </div>
 
-    <article id="A1">This is the Original text</article>
-
-    <script>
-      function changeText() {
-        Element = document.getElementById("A1");
-        Element.textContent = "This is the new text";
-      }
-    </script>
-    <nav>
-      <button onclick="changeText()">Click to change the text</button>
-    </nav>
+    <script src="index.js"></script>
   </body>
 </html>
