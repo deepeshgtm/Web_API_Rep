@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin:0;
+  }
+  
+  /* Flex container */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+    height: 100%; 
+
+  }
+  .article{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border: 1px solid #000;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+  }
+  .articles{
+    display: flex; 
+    justify-content: left;  
+    align-items: center; 
+    border: 1px solid #000;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+  }
+  /* Text and button taking up 50% width each */
+  .text, .toggle-btn {
+    flex: 1;
+    padding: 20px;
+    font-size: 18px;
+  }
+  
+  /* Button styling */
+  .toggle-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .toggle-btn:hover {
+    background-color: #0056b3;
+  }
