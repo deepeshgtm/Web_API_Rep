@@ -1,4 +1,4 @@
-function endpoint() {
-  return "Hello from Endpoint";
-}
-module.exports = endpoint;
+// function endpoint() {
+//   return "Hello from Endpoint";
+// }
+// module.exports = endpoint;
