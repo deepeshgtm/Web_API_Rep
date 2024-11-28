@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Sample Post",
+    "content": "This is a sample post fortesting.",
+    "createdAt": "2024-11-28T09:37:52.939Z"
+  },
+  {
+    "id": 2,
+    "title": "Sample data 2",
+    "content": "Second sample data",
+    "createdAt": "2024-11-28T09:39:37.017Z"
+  }
+]
